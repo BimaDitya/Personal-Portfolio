@@ -98,10 +98,10 @@
                   </div>
                   <div class="col text-center p-2">
                     <div class="card border-primary shadow-sm">
-                        <div class="card-header nunito-font">Github</div>
+                        <div class="card-header nunito-font">LinkedIn</div>
                         <div class="card-body">
-                            <i class="ph-github-logo-light" style="font-size: 2.5rem; color: #4F86F7;"></i>
-                            <h6><a class="list-group-item list-group-item-action" href="{{ $Profile->LinkedIn }}">Github</a></h6>
+                            <i class="ph-linkedin-logo-light" style="font-size: 2.5rem; color: #4F86F7;"></i>
+                            <h6><a class="list-group-item list-group-item-action" href="{{ $Profile->LinkedIn }}">LinkedIn</a></h6>
                         </div>
                     </div>
                   </div>
