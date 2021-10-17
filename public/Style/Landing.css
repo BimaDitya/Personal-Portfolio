@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Josefin+Sans&display=swap');
+
+.nunito-font {
+  font-family: 'Nunito', sans-serif;
+}
+
+.josefin-font {
+  font-family: 'Josefin Sans', serif;
+}
+
+.manual-justify {
+  text-align: justify;
+}
+.josefin-color {
+  color: #4F86F7;
+  transition: 0.5s;
+}
+
+.josefin-color:hover {
+  transition: 0.5s;
+  color: #28437C;
+  cursor: default;
+}
+
+.josefin-color-1 {
+  color: #EDF3FE;
+  transition: 0.5s;
+}
+
+.josefin-color-1:hover {
+  transition: 0.5s;
+  color: #B9CFFC;
+  cursor: default;
+}
+
+.patter-background {
+  background-image: url('/public/storage/Img/Geometric-Leaves.PNG');
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: #FFFFFF;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
